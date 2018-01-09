@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-config.dtd">  
+<configuration>  
+       
+  <settings>
+  <!-- 该配置影响所有的映射器中配置的缓存的全局开关 -->
+		<setting name="lazyLoadingEnabled" value="true" />
+		<!-- 当启用时，对任意延迟属性的调用会使带延迟属性加载的对象完整加载；反之，每种属性都将会按需加载 -->
+		<setting name="aggressiveLazyLoading" value="falae" />
+  </settings>
+  
+ 
+</configuration>  
